@@ -1,6 +1,5 @@
-#User = input("What's your name?: ")
-#print("Nice to meet you,  " + User + "!")
-import math
+User = input("What's your name?: ")
+print("Nice to meet you,  " + User + "!")
 
 
 
