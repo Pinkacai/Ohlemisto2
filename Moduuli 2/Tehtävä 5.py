@@ -17,7 +17,6 @@ weight = (L2)+(N2)+(B2)
 kg = int(weight)/1000
 g = (weight)%1000
 
-
 print(" ")
 print(f"The equivalent weight in kilograms and grams is: {kg:0.0f}" "kg and " + (f"{g:0.3f}" "g."))
 
