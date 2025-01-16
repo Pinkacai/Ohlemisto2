@@ -4,6 +4,7 @@ print("      ")
 num1 = float(input("Please input the first number: "))
 num2 = float(input("Please input the second number: "))
 num3 = float(input("Please input the third and final number: "))
+print(" ")
 
 sum = (num1) + (num2) + (num3)
 mult = (num1)*(num2)*(num3)
