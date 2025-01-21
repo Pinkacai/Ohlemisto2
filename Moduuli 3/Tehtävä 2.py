@@ -11,19 +11,19 @@ print(" ")
 if cabin_class == str("LUX"):
     print(LUX)
     print(" ")
-    print("Enjoy your stay in the " + str(cabin_class) + " class cabin")
+    print("Enjoy your stay in the " + str(cabin_class) + " class cabin!")
 elif cabin_class == str("A"):
     print(A)
     print(" ")
-    print("Enjoy your stay in the " + str(cabin_class) + " class cabin")
+    print("Enjoy your stay in the " + str(cabin_class) + " class cabin!")
 elif cabin_class == str("B"):
     print(B)
     print(" ")
-    print("Enjoy your stay in the " + str(cabin_class) + " class cabin")
+    print("Enjoy your stay in the " + str(cabin_class) + " class cabin!")
 elif cabin_class == str("C"):
     print(C)
     print(" ")
-    print("Enjoy your stay in the " + str(cabin_class) + " class cabin")
+    print("Enjoy your stay in the " + str(cabin_class) + " class cabin!")
 else:
     print("Invalid cabin class.")
 
