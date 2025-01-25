@@ -1,6 +1,6 @@
-print(" ")
+print("  ")
 print("Please enter numbers as you please. To quit, enter an empty string. ")
-print(" ")
+print("  ")
 
 big = None
 small = None
