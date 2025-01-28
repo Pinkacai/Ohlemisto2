@@ -5,10 +5,7 @@ print(" ")
 numlst = []
 num = input("Please enter a number: ")
 num2 = int(num)
-num3 = float(num)
 print(" ")
-
-
 
 for n in range(1,num2+1):
     numlst.append(n)
