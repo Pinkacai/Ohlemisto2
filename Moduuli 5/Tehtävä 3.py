@@ -11,18 +11,25 @@ for n in range(1,num2+1):
     numlst.append(n)
 if num2 != 2:
     numlst.remove(1)
-numlst.remove(num2)
+    numlst.remove(num2)
+else:
+    numlst.remove(num2)
 
+if num2 == 2:
+    print(f"{num} is a prime number!")
+    quit()
+is_prime = True
 for n in numlst:
-    if num2 == 2:
-        print(f"{num} is a prime number!")
-        break
-    if num2%n == 0:
-        print(f"{num} is not a prime number.")
-        break
-    else:
-        print(f"{num} is a prime number!")
-        break
+        if num2%n == 0:
+            is_prime = False
+            break
+
+if is_prime:
+    print(f"{num} is a prime number!")
+else:
+    print(f"{num} is not a prime number!")
+
+
 
 
 
