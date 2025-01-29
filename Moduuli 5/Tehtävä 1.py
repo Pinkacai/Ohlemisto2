@@ -10,7 +10,7 @@ for n in range(0, roll):
 for n in rolls:
     outcome = outcome + n
 
-print(outcome)
+print(f"The total sum of your {roll} dice thrown is {outcome}")
 
 
 
