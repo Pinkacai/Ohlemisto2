@@ -4,9 +4,9 @@ command = int(input("Please choose one."
                 "\n5. Fetch an existing airport name."
                 "\n9. quit."
                 "\nEnter a command: "))
-print("--------------------------------------------------")
 while int(command in range(1,9)):
     if command == 1:
+        print("--------------------------------------------------")
         icao = input("Please enter the ICAO code of the airport you wish to enter: ")
         airport = input("Please enter the name of the airport you wish to enter: ")
         airports[icao] = airport
@@ -17,6 +17,7 @@ while int(command in range(1,9)):
                 "\n9. quit."
                 "\nEnter a command: "))
     if command == 5 :
+        print("--------------------------------------------------")
         icao = input("Please enter the ICAO code of the airport you wish to see: ")
         if icao in airports:
             print("")
@@ -36,6 +37,16 @@ while int(command in range(1,9)):
                         "\n5. Fetch an existing airport name."
                         "\n9. quit."
                         "\nEnter a command: "))
-        if command == 9:
-            quit()
+    if command == 9:
+        quit()
+    else:
+        print("--------------------------------------------------")
+        print("Error,please try again")
+        print("--------------------------------------------------")
+        command = int(input("Please choose one."
+                            "\n1. Enter a new airport."
+                            "\n5. Fetch an existing airport name."
+                            "\n9. quit."
+                            "\nEnter a command: "))
+
 
