@@ -32,7 +32,8 @@ def distances(icao1,icao2):
             print(f"The second ICAO code you entered is for the airport: {row[0]}")
             location2 = row[1],row[2]
     print(" ")
-    print(f"The distance between the two airports is: {distance.distance(location1,location2).km:.0f}km.")
+    print(f"The distance between the two airports is about: {distance.distance(location1,location2).km:.0f}km.")
+
     return
 
 
