@@ -11,7 +11,6 @@ connection = mysql.connector.connect(
 
 def airport_info(icao):
     sql = f"SELECT name FROM airport WHERE ident='{icao}'"
-    #print(sql)
     cursor = connection.cursor()
     cursor.execute(sql)
     result = cursor.fetchall()
