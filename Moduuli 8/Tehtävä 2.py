@@ -24,5 +24,5 @@ def airport_info(country_code):
         print("The country code you entered could not be found.")
     return
 
-airport_iso_code = input("Please enter the country code of the country  ").upper()
+airport_iso_code = input("Please enter the country code of the country: ").upper()
 airport_info(airport_iso_code)
