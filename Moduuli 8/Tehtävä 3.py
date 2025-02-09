@@ -23,6 +23,11 @@ def distances(icao1,icao2):
             print(" ")
             print(f"The first ICAO code you entered is for the airport: {row[0]}")
             location1 = row[1],row[2]
+    else:
+        if icao1 not in result1:
+            print("Code not found. Please try again.")
+            quit()
+
 
 
     cursor.execute(sql2)
@@ -31,6 +36,10 @@ def distances(icao1,icao2):
         for row in result2:
             print(f"The second ICAO code you entered is for the airport: {row[0]}")
             location2 = row[1],row[2]
+    else:
+        if icao2 not in result2:
+            print("Code not found. Please try again.")
+            quit()
     print(" ")
     print(f"The distance between the two airports is about: {distance.distance(location1,location2).km:.0f}km.")
 
