@@ -39,14 +39,14 @@ while int(command in range(1,9)):
                         "\nEnter a command: "))
     if command == 9:
         quit()
-    else:
-        print("--------------------------------------------------")
-        print("Error,please try again")
-        print("--------------------------------------------------")
-        command = int(input("Please choose one."
-                            "\n1. Enter a new airport."
-                            "\n5. Fetch an existing airport name."
-                            "\n9. quit."
-                            "\nEnter a command: "))
+else:
+    print("--------------------------------------------------")
+    print("Error,please try again")
+    print("--------------------------------------------------")
+    command = int(input("Please choose one."
+                "\n1. Enter a new airport."
+                "\n5. Fetch an existing airport name."
+                "\n9. quit."
+                "\nEnter a command: "))
 
 
